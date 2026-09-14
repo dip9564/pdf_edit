@@ -18,7 +18,7 @@ app = FastAPI(title="PDF Editor API")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://pdf-edit-rosy.vercel.app"],
+    allow_origins=["https://pdf-edit-rosy.vercel.app", "https://pdf.dipmondaldev.me"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
