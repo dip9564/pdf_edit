@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { createRoot } from "react-dom/client";
 import "./style.css";
 
-const API = "http://localhost:8000";
+const API = "https://pdf-edit-tvzl.onrender.com";
 const DEFAULT_EDIT = { filter: "normal", crop: { x: 0, y: 0, width: 100, height: 100 } };
 const FILTERS = ["normal", "grayscale", "sepia", "contrast"];
 const HANDLES = ["nw", "n", "ne", "e", "se", "s", "sw", "w"];
